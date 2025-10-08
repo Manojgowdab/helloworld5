@@ -16,6 +16,7 @@ public class Company {
     private Long companyId;
     private String  companyName;
     private String companyEmail;
+    private String companyOwner;
 
     public Long getCompanyId() {
         return companyId;
