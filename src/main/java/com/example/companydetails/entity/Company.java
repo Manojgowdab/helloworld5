@@ -19,8 +19,9 @@ public class Company {
     private String companyOwner;
     private String companyAddress;
     private String parnmantAddress;
-    private int id;
-    private String parnmantAddress;
+    private String city;
+    private String state;
+    private String country;
 
     public String getCompanyOwner() {
         return companyOwner;
