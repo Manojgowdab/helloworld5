@@ -23,6 +23,7 @@ public class Company {
     private String state;
     private String country;
     private String hrName;
+    private String ceoName;
 
     public String getCompanyOwner() {
         return companyOwner;
