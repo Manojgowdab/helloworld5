@@ -24,6 +24,7 @@ public class Company {
     private String country;
     private String hrName;
     private String ceoName;
+    private double companyDistance;
 
     public String getCompanyOwner() {
         return companyOwner;
