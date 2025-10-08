@@ -18,6 +18,7 @@ public class Company {
     private String companyEmail;
     private String companyOwner;
     private String companyAddress;
+    private String parnmantAddress;
 
     public String getCompanyOwner() {
         return companyOwner;
