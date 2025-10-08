@@ -17,6 +17,24 @@ public class Company {
     private String  companyName;
     private String companyEmail;
     private String companyOwner;
+    private String companyAddress;
+
+    public String getCompanyOwner() {
+        return companyOwner;
+    }
+
+    public void setCompanyOwner(String companyOwner) {
+        this.companyOwner = companyOwner;
+    }
+
+    public String getCompanyAddress() {
+        return companyAddress;
+    }
+
+    public void setCompanyAddress(String companyAddress) {
+        this.companyAddress = companyAddress;
+    }
+
 
     public Long getCompanyId() {
         return companyId;
@@ -41,8 +59,4 @@ public class Company {
     public void setCompanyEmail(String companyEmail) {
         this.companyEmail = companyEmail;
     }
-
-
-
-
 }
