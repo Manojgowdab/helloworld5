@@ -18,6 +18,15 @@ public class Company {
     private String companyEmail;
     private String companyOwner;
     private String companyAddress;
+    private Long companyStrength;
+
+    public Long getCompanyStrength() {
+        return companyStrength;
+    }
+
+    public void setCompanyStrength(Long companyStrength) {
+        this.companyStrength = companyStrength;
+    }
 
     public String getCompanyOwner() {
         return companyOwner;
