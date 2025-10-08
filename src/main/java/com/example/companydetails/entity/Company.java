@@ -19,6 +19,7 @@ public class Company {
     private String companyOwner;
     private String companyAddress;
     private String parnmantAddress;
+    private int id;
 
     public String getCompanyOwner() {
         return companyOwner;
