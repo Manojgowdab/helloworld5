@@ -17,4 +17,9 @@ public class CompanyService {
         return companyRepository.findAll();
     }
 
+    public String getNameById(Long companyId)
+    {
+        return companyRepository.getCompanyName();
+    }
+
 }
