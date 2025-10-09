@@ -23,6 +23,7 @@ public class Company {
     private String state;
     private String country;
     private double companyDistance;
+    private String companyTechPark;
 
     public String getCompanyOwner() {
         return companyOwner;
