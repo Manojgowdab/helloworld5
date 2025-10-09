@@ -16,14 +16,5 @@ public class CompanyService {
     {
         return companyRepository.findAll();
     }
-    public String getCompanyOwnerNameByCompanyName(String CompanyName)
-    {
-        return companyRepository.getOwnerName();
-    }
-
-    public String getNameById(Long companyId)
-    {
-        return companyRepository.getCompanyName();
-    }
 
 }
