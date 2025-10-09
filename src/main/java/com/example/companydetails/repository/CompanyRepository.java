@@ -11,4 +11,6 @@ public interface CompanyRepository extends JpaRepository<Company, Long>{
 
 
     String getCompanyName();
+
+    String getOwnerName();
 }
