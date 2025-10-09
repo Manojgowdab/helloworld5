@@ -27,6 +27,7 @@ public class Company {
     private double companyDistance;
     private double companyInvestment;
     private String companyMembers;
+    private String companyTechPark;
 
     public String getCompanyOwner() {
         return companyOwner;
